@@ -1,0 +1,38 @@
+.content-wrapper {
+  margin-left: 280px;
+  background-color: white;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+h2 {
+  color: #333;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #2cd6e2;
+}
+
+input {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 8px;
+  margin-right: 5px;
+  cursor: pointer;
+  background-color: antiquewhite;
+}

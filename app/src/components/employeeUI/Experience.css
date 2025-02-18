@@ -1,0 +1,56 @@
+.experience {
+    display: table;
+    margin: 1em 0;
+    background-color: #f0f8ff; 
+    border-radius: 5px;
+    padding: 1em;
+    width: 100%;
+}
+
+.experience-row {
+    display: table-row;
+}
+
+.experience-cell {
+    display: table-cell;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+}
+
+.experience input,
+.experience textarea {
+    display: block;
+    margin-bottom: 1em;
+    padding: 0.5em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.experience button {
+    margin-right: 1em;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    border: none;
+}
+
+.experience button:not([type]) {
+    background-color: #ff4500; 
+}
+
+.experience .update-button {
+    background-color: #008000; 
+}
+
+.experience .delete-button {
+    background-color: #ff0000; 
+}
+
+.experience .add-button,
+.experience .submit-button {
+    display: block;
+    width: 200px;
+    height: 40px;  
+    margin: 20px auto; 
+    background-color: #1e90ff; 
+    color: white;
+}

@@ -1,0 +1,44 @@
+.container {
+    margin: 20px;
+    background-color: #f8f9fa; /* light gray */
+    color: #333; /* dark gray */
+  }
+  
+  .error {
+    color: red;
+  }
+  
+  .leave {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff; /* white */
+  }
+  
+  .button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    color: #fff; /* white */
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    opacity: 0.8;
+  }
+  
+  .button.approve {
+    background-color: #28a745; /* green */
+  }
+  
+  .button.decline {
+    background-color: #dc3545; /* red */
+  }
+  .success {
+    color: green;
+  }
+  
+  
+  

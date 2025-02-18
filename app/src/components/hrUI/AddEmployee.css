@@ -1,0 +1,44 @@
+.add-employee-form {
+    margin: 1em 0;
+    background-color: #f0f8ff; 
+    border-radius: 5px;
+    padding: 1em;
+}
+
+.add-employee-form input,
+.add-employee-form textarea {
+    display: block;
+    margin-bottom: 1em;
+    padding: 0.5em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.add-employee-form button {
+    margin-right: 1em;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    border: none;
+}
+
+.add-employee-form button:not([type]) {
+    background-color: #ff4500; 
+}
+
+.add-employee-form .update-button {
+    background-color: #008000; 
+}
+
+.add-employee-form .delete-button {
+    background-color: #ff0000; 
+}
+
+.add-employee-form .add-button {
+    background-color: #1e90ff; 
+    color: white;
+}
+
+.add-employee-form .submit-button {
+    background-color: #008000; 
+    color: white;
+}

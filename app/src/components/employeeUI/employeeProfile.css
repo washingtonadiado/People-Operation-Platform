@@ -1,0 +1,32 @@
+.profile-container .main {
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.profile-sidebar {
+  background-color: #fff;
+  color: var(--extra-light);
+  min-height: 100vh;
+}
+
+.profile-container .main .row .col-md-4 .card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-btn {
+  background-color: var(--primary-color);
+  width: 100px;
+  height: 50px;
+  outline: none;
+  color: var(--extra-light);
+}
+
+.sidebar-btn.del {
+  background-color: tomato;
+}
+
+.profile {
+  margin-top: 1rem;
+}

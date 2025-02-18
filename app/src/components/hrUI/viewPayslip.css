@@ -1,0 +1,9 @@
+.payslip-container {
+  position: relative;
+  left: 20%;
+  top: 10%;
+  background: #fff;
+  width: 80%;
+  min-height: 90vh;
+  padding: 2rem;
+}

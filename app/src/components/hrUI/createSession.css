@@ -1,0 +1,53 @@
+.create-session-container {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    margin: 20px auto;
+  }
+  
+  h3 {
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin: 10px 0;
+    font-weight: bold;
+  }
+  
+  input,
+  select {
+    padding: 8px;
+    margin: 5px 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .exit-button {
+    margin-top: 10px;
+    background-color: #eb3528;
+  }
+  
+  .exit-button:hover {
+    background-color: #d32f2f;
+  }
